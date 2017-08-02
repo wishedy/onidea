@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import "../../modules/_common-modules";
+.idea-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border:1px solid #333;
+  box-sizing: border-box;
+  .idea-page-item{
+    height:100%;
+    width:100%;
+    background: #ddd;
+    box-sizing: border-box;
+  }
+  .idea-pagination{
+    position: fixed;
+    right: 0;
+    top:40%;
+    width:rem(40px);
+    height:rem(150px);
+    .swiper-pagination-bullet{
+      width:rem(17px);
+      height:rem(17px);
+      background: #fff;
+      border-radius: 50%;
+      margin-bottom:rem(18px);
+
+    }
+    .swiper-pagination-bullet-active{
+      background: #2074c9;
+    }
+  }
+  .idea-page-item:nth-child(1){
+    background: #140351 url('../../../img/scene/index/banner.jpg') no-repeat 0 rem(100px);
+    @import "first";
+  }
+  .idea-page-item:nth-child(2){
+    @import "second";
+  }
+  .idea-page-item:nth-child(3){
+    @import "third";
+  }
+  .idea-page-item:nth-child(4){
+    @import "fourth";
+  }
+}
