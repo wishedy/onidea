@@ -11,9 +11,17 @@
     <meta content="telephone=no,email=no" name="format-detection">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+    <link rel="stylesheet" href="../../../css/page/core/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/page/core/animate.min.css">
     <link rel="stylesheet" href="../../../css/base.css">
     <link rel="stylesheet" href="../../../js/thirdParty/swiper/swiper.min.css">
     <link rel="stylesheet" href="../../../css/page/index/index.css">
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <script src="../../../js/common/rem.js"></script>
 </head>
 <body>
@@ -21,9 +29,35 @@
     <section class="swiper-wrapper">
         <section class="idea-page-item swiper-slide">
             <!--html代码编辑区-->
+            <section class="idea-page-item-fouthCon">
+                <section class="idea-page-item-contactUs col-md-5 col-sm-12 animated fadeInDown">
+                    <h1 class="fs30 col333">联系我们</h1>
+                    <form class="mt10" action="">
+                        <ul class="contact-info">
+                            <li class="contact-item"><input type="text" placeholder="联系电话"></li>
+                            <li class="contact-item"><input type="email" placeholder="邮箱"></li>
+                            <li class="contact-item"><input type="text" placeholder="QQ"></li>
+                            <li class="contact-item"><input type="text" placeholder="微信"></li>
+                        </ul>
+                        <a class="submit-btn button hover-ripple-out colfff mt30" href="javascript:;"><input class="submit-btn-input" type="submit" value="提交"></a>
+                    </form>
+                </section>
+            </section>
+            <footer class="idea-page-copyright">
+                <span class="copyright-ico colfff fs12">版权所有&nbsp;&copy;&nbsp;1999-2017 Copyright&nbsp;&copy;&nbsp;1999-2017 300.cn All Rights Reserved</span>
+                <div class="contact-way fs12 colfff">
+                    <span class="focus-phone">联系电话：15210108888</span><br />
+                    <a class="focus-weibo colfff hidden-xs">关注微博</a>
+                </div>
+            </footer>
         </section>
     </section>
     <section class="idea-pagination swiper-pagination"></section>
 </section>
+<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../../../js/common/jquery-1.11.0.js"></script>
+<script src="../../../js/common/bootstrap.min.js"></script>
+<script src="../../../js/common/jquery.appear.js"></script>
 </body>
 </html>
